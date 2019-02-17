@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Attributes 1`] = `"document.createElement(\\"div\\").setAttribute(\\"attribute\\", \\"test\\").setAttribute(\\"attribute2\\", \\"test2\\");"`;
+
+exports[`Empty element 1`] = `"document.createElement(\\"div\\");"`;
+
+exports[`No children 1`] = `"document.createElement(\\"div\\");"`;

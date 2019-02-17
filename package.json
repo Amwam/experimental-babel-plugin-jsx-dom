@@ -1,0 +1,26 @@
+{
+  "name": "jsx-dom",
+  "version": "1.0.0",
+  "description": "Babel plugin to convert JSX to document.createElement",
+  "main": "index.js",
+  "author": "Amit Shah",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/helper-plugin-test-runner": "^7.1.0",
+    "jest": "^24.1.0",
+    "prettier": "^1.16.4"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.3.3"
+  },
+  "dependencies": {
+    "@babel/helper-builder-react-jsx": "^7.3.0",
+    "@babel/helper-plugin-utils": "^7.0.0",
+    "@babel/plugin-syntax-jsx": "^7.2.0"
+  }
+}
