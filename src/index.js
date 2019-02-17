@@ -1,5 +1,6 @@
 const jsx = require('@babel/plugin-syntax-jsx').default;
 const helper = require('@babel/helper-builder-react-jsx').default;
+
 module.exports = function({ types: t, parse }) {
   const document = t.identifier('document');
   const createElement = t.identifier('createElement');
@@ -51,8 +52,6 @@ module.exports = function({ types: t, parse }) {
       t.stringLiteral(jsxAttribute.value.value),
     ]);
   }
-
-  function children(children, t, element) {}
 
   return {
     visitor: {
