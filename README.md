@@ -8,6 +8,8 @@ This is nowhere near ready to use in a production environment.
 
 ## Running tests
 
-Some are currently skipped, as the functionality is not implemented
+Some are currently skipped, as the functionality is not implemented.
+
+Tests located in `./src/__tests__`
 
     yarn test
